@@ -1,0 +1,3 @@
+Rectangle perimeter: 18
+Circle perimeter: 18.8496
+Triangle perimeter: 21
