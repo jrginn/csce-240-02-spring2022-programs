@@ -145,7 +145,9 @@ int main(int argc, char *argv[]) {
 		output_myfile << "Triangle perimeter: " << tri_per << endl;
 		cout << "Triangle perimeter: " << tri_per << endl;
 	}
-	//deletes
+	//deletes and file closing
+	input_myfile.close();
+	output_myfile.close();
 	delete[](rect_sides);
 	delete[](tri_sides);
 	return 0;
