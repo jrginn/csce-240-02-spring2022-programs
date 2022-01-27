@@ -1,0 +1,12 @@
+This program takes an input file named input.txt located in the data folder.
+Example input.txt:
+Rectangle 4 5
+Circle 3
+Triangle 6 7 8
+The order and spacing matter.
+The program goes through each line and creates an array for the rectangle and triangle, but the circle only
+has one measurement so it just has a radius variable.
+The measurements are calculated and printed both to the console and output.txt.
+If a shape does not have enough measurements, it notifies the user and does not calculate anything.
+Dynamic memory management is used to store the sides.
+Running the program with a command argument besides 1 or 2 will immediately end the program.
