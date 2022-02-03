@@ -40,6 +40,9 @@ public class DataCollector {
 		String outputLine;
 		//fileWriter updates the output file
 		PrintWriter fileWriter;
+		int charCount = 0;
+		int wordCount = 0;
+		int lineCount = 0;
 		try {
 			fileWriter = new PrintWriter(new FileOutputStream("data/hixonOutput.txt"));
 		} catch (FileNotFoundException e) {
@@ -59,9 +62,15 @@ public class DataCollector {
 			System.out.println(outputLine);
 			fileWriter.println(outputLine);
 			previousFileLine = fileLine;
+			charCount += fileLine.length();
+			wordCount += fileLine.split(" ").length;
+			lineCount++;
 		}
 		keyboard.close();
 		fileScanner.close();
 		fileWriter.close();
+		System.out.println("Character count: " + charCount);
+		System.out.println("Word count: " + wordCount);
+		System.out.println("Line count: " + lineCount);
 	}
 }
