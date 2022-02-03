@@ -75,6 +75,10 @@ Voting Record
 	 
 Service In Public Office
 	House of Representatives, 2011 - Present
+Character count: 2398
+Word count: 363
+Line count: 70
+
 	
 Non-83 District Input
 Hello! What is your name?
@@ -82,6 +86,7 @@ Jackson
 Jackson, what district are you interested in?
 17
 This district is not currently supported
+
 
 Non-Integer Input
 Hello! What is your name?
@@ -160,3 +165,6 @@ Voting Record
 	 
 Service In Public Office
 	House of Representatives, 2011 - Present
+Character count: 2398
+Word count: 363
+Line count: 70
