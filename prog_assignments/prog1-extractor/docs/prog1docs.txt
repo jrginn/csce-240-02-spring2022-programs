@@ -1,0 +1,20 @@
+Summary	
+This program takes a text file called “hixonInput.txt” and creates a text file called “hixonOutput.txt”. 
+Both of these files are located in the “data” subfolder of the project. 
+The program starts by welcoming the user and asking for their name, which is stored for later use. A
+fter this, the user is asked for what district they are interested in. 
+If they say a number besides 83, the program ends, but if they enter 83 or something that is not a number, then the program continues. 
+The program then sets up the files to be read and written to. 
+If either of these files cannot be found in the data subfolder, then the program immediately terminates since there is no data to work with. 
+Once both files have been set up, the program begins to loop through the input file. 
+It takes the current line and checks if the last line was either empty or just a space. 
+If it is not, then it adds a tab before the line to signify that it is not a header line. 
+If either of the above are true, then it does not add a tab since it is a header line. 
+Once the line is correctly formatted for the output file, it is written on the “hixonOutput.txt” output file and printed to the console. 
+The line is then stored for comparison in the next iteration of the loop. 
+When the loop is done, the scanners are closed. The program then ends.
+
+Formatting
+The input file “hixonInput.txt” is a text file consisting of the information selected from the website https://www.scstatehouse.gov/member.php?code=849715808. 
+The main sections are separated by empty lines, which is utilized for formatting the output file. 
+The output file “hixonOutput.txt” has the same content as the input file, although the body of the content has been indented to convey that it is the body.
