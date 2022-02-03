@@ -12,7 +12,10 @@ If it is not, then it adds a tab before the line to signify that it is not a hea
 If either of the above are true, then it does not add a tab since it is a header line. 
 Once the line is correctly formatted for the output file, it is written on the “hixonOutput.txt” output file and printed to the console. 
 The line is then stored for comparison in the next iteration of the loop. 
-When the loop is done, the scanners are closed. The program then ends.
+Character count is increased by the length of the fileLine, the word count is increased by the length of the array made by splitting the line based on spaces, and line count is incremented by 1 each time.
+When the loop is done, the scanners are closed. 
+The character count, word count, and line counts are printed.
+The program then ends.
 
 Formatting
 The input file “hixonInput.txt” is a text file consisting of the information selected from the website https://www.scstatehouse.gov/member.php?code=849715808. 
