@@ -1,0 +1,18 @@
+This program takes an input file named input.txt located in the data folder.
+Example input.txt:
+Rectangle 4 5
+Circle 3
+Triangle 6 7 8
+Example output.txt for that input.txt: 
+Rectangle area: 20
+Circle area: 28.2735
+Triangle area: 20.3332
+The order and spacing matter.
+The program goes through each line and creates a object for each shape using vectors populated from the file
+The measurements are calculated and printed both to the console and output.txt.
+If a shape does not have enough measurements, it notifies the user and does not calculate anything.
+It handles missing inputs and non-number inputs.
+Running the program with a command argument besides 1 or 2 will immediately end the program.
+
+The code is longer now than it was before, since I have many more files than I had before. However, adding a new functionality to my program will be much easier than my
+non-object-oriented program since I can easily create a new method for my classes.
