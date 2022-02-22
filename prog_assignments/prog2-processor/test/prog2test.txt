@@ -1,0 +1,48 @@
+The program takes an argument either formatted as "section title" or "section title:specific info". 
+
+Valid section titles are: "Representative William M. "Bill" Hixon", "District 83 - Aiken & Edgefield Counties - Map", 
+"Columbia Address", "Business Phone (803) 212-6898", "Home Address", "Home Phone (803) 278-0892", "Business Phone (803) 279-8855",
+"Send message to Representative Hixon", "Personal Information", "Committee Assignments", "Sponsored Bills in the House", 
+"Voting Record", "Service In Public Office".
+
+The specific info can be anything from an indented line underneath its respective section title.
+
+Partial matches are accepted, for example:
+"Personal Information:President" outputs
+Personal Information
+President/Owner, Hixon Realty Co.
+President, Hixon Insurance Agency Inc.
+Past President, North Augusta Board of Realtors, 1988, 1997, 1998, 2005, 2006
+Past Vice President, South Carolina Association of Realtors Region 3
+
+If an input has no colon, it looks only for titles matching it. If a title matches, the entire InfoSet is printed
+"Committee Assignments" outputs
+Committee Assignments
+Agriculture, Natural Resources & Environmental Affairs, 2nd V.C.
+Legislative Oversight
+
+Further examples
+
+"Columbia Address" outputs
+Columbia Address
+416A Blatt Bldg.
+Columbia 29201
+
+"Personal:Board" outputs
+Personal Information
+Past Board member, Aiken County Commission of Higher Education, University of South Carolina Aiken
+Board of Directors, Augusta Southern Nationals Drag Boat Races
+Past Board member, Edgefield County Chamber of Commerce
+Past Board member, South Carolina Electric and Gas Company/SCANA Regional Advisory Board
+Past President, North Augusta Board of Realtors, 1988, 1997, 1998, 2005, 2006
+Past Board member, The Independent Insurance Agents of South Carolina
+Past Advisory Board member, Wachovia Bank - North Augusta
+Past Board member, Edgefield County Development Board
+Realtor of the Year, North Augusta Belvedere Board of Realtors, 1989, 1997
+Past Board member, Economic Development Partnership for Aiken and Edgefield Counties
+Advisory Board, Security Federal Bank of North Augusta
+Past member, Board of Trustees, First Baptist Church
+
+"Example no match" outputs
+
+(nothing matches this so nothing is output)
