@@ -1,0 +1,4 @@
+This program takes two arguments: the type of header and the type of the value being searched.
+The program instantly quits if there is an incorrect amount of arguments or a first argument not equal to "Gmail" or "Outlook".
+The respective file is selected and each line is put into a vector, which is then put into the respective constructor.
+The object then searches for the second argument, and it returns the value of the matching type if it is in the header.
