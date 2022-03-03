@@ -1,0 +1,20 @@
+Summary
+This program takes in a “sets.ser” file, which is a serialized form of the InfoSet array generated in the DataProcessor program. 
+The program deserializes this file into an InfoSet array, where it handles IOExceptions and ClassNotFoundExceptions. 
+Assuming there are no issues, the program then welcomes the user and asks what questions they have about Representative Hixon. 
+The program then starts an infinite loop. At the beginning of the loop, the program takes a string from the user’s input. 
+It checks if the string is either “quit” or “q” (case insensitive), and if it is then the loop immediately breaks. 
+Otherwise, the string is passed into the checkRequest method along with the array of InfoSets. 
+The method contains a boolean variable “found”, which is false by default and is set to true whenever the request matches a value. 
+This method first checks the request against all of the titles in the InfoSet array. 
+It utilizes regular expressions, where each title is the pattern and it checks if the request matches each title. 
+If it does match, found is set to true and the title and its corresponding facts are printed. 
+It then loops through each facts array in the InfoSets array and checks for matches similarly. 
+If the found boolean is still false, then it goes through each title and splits it by spaces. 
+It then checks each word (four characters or longer) against the request and when a match occurs it prints the title and its facts and found is set to true. 
+If found is still false, then it splits each fact of each InfoSet and checks each word against the request. 
+If a match is found, then it prints the fact and sets found to true. 
+The method then ends by returning found. 
+Back in the main method, the method checks if the returned found value is true or false. 
+If it is false, the program prints “I cannot handle that query.” 
+Once the loop is done, the user is thanked and the program ends.
