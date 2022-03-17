@@ -9,3 +9,13 @@ the product of the factorial of the smaller number and the factorial of the larg
 The program will immediately stop if a negative number is passed, an argument is not a number, or if a
 number larger than 20 is an argument.
 The program keeps track of how long the operation performed takes and prints it out.
+
+Examples:
+
+Input: 5
+Output: 120
+		Time in seconds: 5.0832e-05
+
+Input: 6 2
+Output: 15
+		Time in seconds: 4.9151e-05
