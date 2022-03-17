@@ -1,0 +1,11 @@
+This program takes one or two integer inputs.
+If one input is given, its factorial is printed out.
+If two inputs are given, it prints out the number of ways the second number of items can be selected from
+a set of the first number of items.
+The factorial function is recursive. Its exit condition is when its parameter x is less than or equal to 1,
+where it then returns 1. Otherwise, it returns x * factorial(x-1).
+The combination function uses the factorial function, where it divides the factorial of the larger number by
+the product of the factorial of the smaller number and the factorial of the larger number minus the smaller.
+The program will immediately stop if a negative number is passed, an argument is not a number, or if a
+number larger than 20 is an argument.
+The program keeps track of how long the operation performed takes and prints it out.
