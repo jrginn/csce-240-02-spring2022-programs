@@ -1,0 +1,3 @@
+This program provides information about the chats my chatbot has had.
+It uses three argument types: "-summary", "-showchat n", "-showchat-summary n". n is a number.
+"-summary" provides total data, "-showchat x" prints the chatlog of the nth chat, and "-showchat-summary n" provides data about the nth chat.
