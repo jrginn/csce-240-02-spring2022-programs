@@ -1,0 +1,38 @@
+Prog5SessionLogger -showchat 1
+Chat 1 chat is:
+Hello! What questions do you have about Representative Hixon?
+	How do I contact the rep
+Contact information: 
+Columbia Address
+416A Blatt Bldg.
+Columbia 29201
+Business Phone (803) 212-6898
+Home Address
+P.O. Box 7927
+North Augusta 29861
+Home Phone (803) 278-0892
+	Where does the rep live
+Home address: 
+Home Address
+P.O. Box 7927
+North Augusta 29861
+	What committees is my rep on
+Committee assignments: 
+Committee Assignments
+Agriculture, Natural Resources & Environmental Affairs, 2nd V.C.
+Legislative Oversight
+	quit
+Goodbye.
+
+
+Prog5SessionLogger -showchat-summary 2
+Chat 2 has user asking 10 times and system responding 11 times. Total duration is 73 seconds.
+
+Prog5SessionLogger -summary
+There are 3 chats to date with user asking 18 times and system responding 21 times. Total duration is 113 seconds.
+
+Prog5SessionLogger -invalidargument
+Invalid argument
+
+Prog5SessionLogger -showchat 7000
+Chat 7000 does not exist

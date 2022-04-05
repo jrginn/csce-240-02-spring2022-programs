@@ -1,0 +1,23 @@
+Hello! What questions do you have about Representative Hixon?
+	How do I contact the rep
+Contact information: 
+Columbia Address
+416A Blatt Bldg.
+Columbia 29201
+Business Phone (803) 212-6898
+Home Address
+P.O. Box 7927
+North Augusta 29861
+Home Phone (803) 278-0892
+	Where does the rep live
+Home address: 
+Home Address
+P.O. Box 7927
+North Augusta 29861
+	What committees is my rep on
+Committee assignments: 
+Committee Assignments
+Agriculture, Natural Resources & Environmental Affairs, 2nd V.C.
+Legislative Oversight
+	quit
+Goodbye.
