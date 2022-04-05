@@ -1,0 +1,23 @@
+Summary
+This program uses a “chat_statistics.csv” file and a directory of chat files which are .txts. 
+The program takes one of three arguments: “-summary”, “-showchat”, and “-showchat-summary”. 
+The last two require an additional number after the argument so that the program knows which chat to show or summarize. 
+If there are no arguments given, the program notifies the user and ends the program. 
+Otherwise, the program checks if the first argument matches. 
+First, it checks if the argument is “-summary”. 
+If it is, it runs the summarizeAll method using the chat_statistics file. 
+This method goes through each line with data and totals each data point across all of the chats. 
+It then prints the data compiled about the chats. 
+If that is not the argument given, then it checks if it is “-showchat”. 
+If it is, it then attempts to get the number chat to look for as the second argument, and if there is no second argument then the program ends. 
+If there is, then the method showchat is run using the statistics file and the index given by the second argument. 
+The program loops through the statistics file and checks for the chat matching the index.
+ If there is one, the found boolean is updated and that chat’s filename is stored. 
+ If it finds the chat, it then goes through each line of that chat and prints it. 
+ Otherwise, it tells the user that the chat does not exist. 
+ Finally, it checks if the argument is “-showchat-summary”. 
+ If it is, then it checks for a second argument similarly to the “-showchat” check. 
+ If there is a second argument, then it runs the summarizeSpecific method with the statistics file and index parameters. 
+ This method is similar to summarizeAll, but it only stores the specific chat’s data rather than all of the chats’ data. 
+ It then prints that data. 
+ If the first argument is none of these, then it tells the user that the argument is invalid.
