@@ -1,0 +1,9 @@
+This program combines the previous five programming assignments into one program.
+It takes in a text file from the representative's website and processes it into InfoSets.
+An InfoSet is a class with a String title and String[] facts, which are used to help answer users' queries.
+Once the data is processed, the user can then input queries and receive information according to their query.
+The program uses Levenshtein distance to match misspelled queries to the intended query.
+When the user wishes to quit, they type quit (or something close) and the program ends.
+Whenever the user inputs a query or the system outputs anything, a corresponding chat file is updated in the data/chat_sessions subdirectory.
+Once the program ends, the chat_statistics.csv file is updated with the statistics from the session.
+If a user wishes to view overall statistics, a specific chat's statistics, or a chatlog, they can use command arguments (-summary, -showchat-summary, -showchat) respectively.
